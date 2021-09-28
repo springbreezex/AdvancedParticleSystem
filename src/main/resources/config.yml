@@ -1,0 +1,11 @@
+settings:
+  # Allow players using /aps spawn <name> command
+  command-by-player: false
+  # If the above is enabled, whether the permission should be checked
+  command-permission-check: true
+
+messages:
+  NoPerm: "&cYou are not permitted to use this command."
+  PlayerNotValid: "&cPlayer is not valid."
+  TargetNotValid: "&cTarget is not valid."
+  PluginReloaded: "&a[AdvancedParticleSystem] Plugin is reloaded."

@@ -1,0 +1,13 @@
+name: AdvancedParticleSystem
+version: ${project.version}
+main: me.springbreezex.advancedparticlesystem.AdvancedParticleSystem
+api-version: 1.17
+commands:
+  aps:
+permissions:
+  advancedparticlesystem.reload:
+    description: Allows you to reload the plugin
+    default: op
+  advancedparticlesystem.spawn:
+    description: Allows player to use the spawn command
+    default: op

@@ -1,0 +1,25 @@
+1:
+  ParticleType: REDSTONE
+  # ParticleColor can be ignored if type is not redstone
+  ParticleColor:
+    R: '0+t'
+    G: '0'
+    B: '0+t'
+  ParticleSpeed: 0.0
+  # ParticleSize only work for colorized particle
+  ParticleSize: 1.0
+  formula:
+    x: '(40-t)/40*sin(t/2)'
+    y: 't/20'
+    z: '(40-t)/40*cos(t/2)'
+
+  InitialT: 0
+  TIncrement: 1
+  TEnds: 40
+  Delay: 0
+  Period: 1
+  FollowTarget: true
+  BaseOnYaw: true
+  TerminateIfTargetDies: true
+  TerminateIfPlayerQuit: true
+  ShowToPlayerOnly: true
